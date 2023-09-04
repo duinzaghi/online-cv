@@ -1,0 +1,147 @@
+/*NUNITO*/
+	@font-face {
+		font-family: "Nunito";
+		font-style: normal;
+		font-weight: 400;
+		src: url("nunito.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Nunito";
+		font-style: normal;
+		font-weight: 400;
+		src: url("nunito.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Nunito";
+		font-style: normal;
+		font-weight: 700;
+		src: url("nunito.woff2") format("woff2");
+		font-display: swap;
+	}
+
+/*SPACE MONO*/
+	@font-face {
+		font-family: "Space Mono";
+		font-style: normal;
+		font-weight: 500;
+		src: url("spacemono500.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Space Mono";
+		font-style: normal;
+		font-weight: 700;
+		src: url("spacemono700.woff2") format("woff2");
+		font-display: swap;
+	}	
+
+/*SYNE*/
+	@font-face {
+		font-family: "Syne";
+		font-style: normal;
+		font-weight: 400;
+		src: url("syne.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Syne";
+		font-style: normal;
+		font-weight: 700;
+		src: url("syne.woff2") format("woff2");
+		font-display: swap;
+	}	
+
+/*Merriweather*/
+	@font-face {
+		font-family: "Merriweather";
+		font-style: normal;
+		font-weight: 400;
+		src: url("Merriweather400.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Merriweather";
+		font-style: normal;
+		font-weight: 700;
+		src: url("Merriweather700.woff2") format("woff2");
+		font-display: swap;
+	}	
+
+/*Karla*/
+	@font-face {
+		font-family: "Karla";
+		font-style: normal;
+		font-weight: 400;
+		src: url("karla.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Karla";
+		font-style: normal;
+		font-weight: 700;
+		src: url("karla.woff2") format("woff2");
+		font-display: swap;
+	}	
+/*Fira Sans*/
+	@font-face {
+		font-family: "Fira Sans";
+		font-style: normal;
+		font-weight: 400;
+		src: url("fira400.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Fira Sans";
+		font-style: normal;
+		font-weight: 500;
+		src: url("fira500.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Fira Sans";
+		font-style: normal;
+		font-weight: 600;
+		src: url("fira600.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Fira Sans";
+		font-style: normal;
+		font-weight: 700;
+		src: url("fira700.woff2") format("woff2");
+		font-display: swap;
+	}	
+/*Work Sans*/
+	@font-face {
+		font-family: "Work Sans";
+		font-style: normal;
+		font-weight: 400;
+		src: url("work.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Work Sans";
+		font-style: normal;
+		font-weight: 700;
+		src: url("work.woff2") format("woff2");
+		font-display: swap;
+	}	
+/*Josefin Sans*/
+	@font-face {
+		font-family: "Josefin Sans";
+		font-style: normal;
+		font-weight: 400;
+		src: url("josefin.woff2") format("woff2");
+		font-display: swap;
+	}
+	@font-face {
+		font-family: "Josefin Sans";
+		font-style: normal;
+		font-weight: 700;
+		src: url("josefin.woff2") format("woff2");
+		font-display: swap;
+	}	
+
+
