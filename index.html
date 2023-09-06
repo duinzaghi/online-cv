@@ -667,7 +667,461 @@
     </div>
 </div>
 <div id="extras">
-    <div id="modal_pagook" class="modal" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="cute-robot-v1"> <div class="labelbotones">Woo-hoo!</div><div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div><div class="robot-head" style="border-color: rgb(42, 185, 147);"> <div class="robot-face" style="border-color: rgb(42, 185, 147);"> <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div><div class="eyes right" style="border-color: rgb(42, 185, 147);"></div><div class="mouth" style="border-color: rgb(42, 185, 147);"></div></div></div><div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div><div class="robot-body" style="border-color: rgb(42, 185, 147);"></div></div></div><h3 class="">Payment approved</h3> <p style="margin-bottom: 0;">Your download will now begin automatically and will be saved in your device's downloads folder. <br><br>Thank you for your purchase!</p><div class="btn" onclick="javascript:cerrarmodal();" style="background: rgb(42, 185, 147);">ACCEPT</div></div></div><div id="modal_continue" class="modal" style="display: none; opacity: 0;"> <div class="centradovertical" style=""> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="paper-icon-v1"> <div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="paper-big" style="border-color: rgb(42, 185, 147);"> <div class="fold" style="border-color: rgb(42, 185, 147);"></div><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-197 320.9 200 200" style="border-color: rgb(42, 185, 147);" xml:space="preserve"><path class="st0" d="M-75.7,416.3H-49l-48,45.9l-48-45.9h26.6v-50.5h42.6v50" style="border-color: rgb(42, 185, 147); fill: white;"></path></svg> </div></div></div><h3>Load last saved Resume</h3> <p>You have a saved resume, would you like to load it or create a new one?</p><div class="btn color" id="new_resume" onclick="javascript:cerrarmodal();" style="color: rgb(42, 185, 147); background: rgb(42, 185, 147);">New Resume</div><div class="btn" id="load_resume" onclick="javascript:continue_resume();" style="background: rgb(42, 185, 147);">Load Resume</div></div></div><div id="modal_sepaso" class="modal" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="cerrar_modal cerrar_nosepuede" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="paper-icon-v1"> <div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="paper-big" style="border-color: rgb(42, 185, 147);"> <div class="fold" style="border-color: rgb(42, 185, 147);"></div></div></div></div><h3>A4 paper size exceeded</h3> <p>While you can ignore this recommendation, bear in mind that the average recruiter scans a resume for six seconds before deciding if the applicant is a good fit for the role, so it is recommended to keep your resume focused and on one page. </p><div class="btn cerrar_nosepuede" onclick="javascript:cerrarmodal();" style="background: rgb(42, 185, 147);">ACCEPT</div><div class="checkbox-container"> <input type="checkbox" id="modal_check1"> <label class="checkbox" for="modal_check1" style="background: rgb(42, 185, 147); border-color: rgb(42, 185, 147);"></label> <label for="modal_check1">Don´t show again</label> </div></div></div><div id="modal_tamanook" class="modal" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="paper-icon-v1"> <div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="paper-big" style="border-color: rgb(42, 185, 147);"> <div class="fold" style="border-color: rgb(42, 185, 147);"></div></div></div></div><h3>A4 paper size no longer exceeded</h3> <p>Now all your resume content fits on one A4 page.<br>Short and sweet!</p><div class="btn" onclick="javascript:cerrarmodal();" style="background: rgb(42, 185, 147);">ACCEPT</div><div class="checkbox-container"> <input type="checkbox" id="modal_check2"> <label class="checkbox" for="modal_check2" style="background: rgb(42, 185, 147); border-color: rgb(42, 185, 147);"></label> <label for="modal_check2">Don´t show again</label> </div></div></div><div id="modal_saveshare" class="modal" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="paper-icon-v1"> <div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="paper-big" style="border-color: rgb(42, 185, 147);"> <div class="fold" style="border-color: rgb(42, 185, 147);"></div><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-197 320.9 200 200" style="border-color: rgb(42, 185, 147);" xml:space="preserve"><path class="st0" d="M-75.7,416.3H-49l-48,45.9l-48-45.9h26.6v-50.5h42.6v50" style="border-color: rgb(42, 185, 147); fill: white;"></path></svg> </div></div></div><h3>Progress Saved</h3> <p>Your resume data has been successfully stored on your device. You can load it to pick up where you left off.</p><div class="btn" onclick="javascript:cerrarmodal();" style="background: rgb(42, 185, 147);"><div>ACCEPT</div></div><div class="checkbox-container"> <input type="checkbox" id="modal_check3"> <label class="checkbox" for="modal_check3" style="background: rgb(42, 185, 147); border-color: rgb(42, 185, 147);"></label> <label for="modal_check3">Don´t show again</label> </div></div></div><div id="modal_help" class="modal noai" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="cute-robot-v1"> <div class="labelbotones">Woo-hoo!</div><div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div><div class="robot-head" style="border-color: rgb(42, 185, 147);"> <div class="robot-face" style="border-color: rgb(42, 185, 147);"> <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div><div class="eyes right" style="border-color: rgb(42, 185, 147);"></div><div class="mouth" style="border-color: rgb(42, 185, 147);"></div></div></div><div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div><div class="robot-body" style="border-color: rgb(42, 185, 147);"></div></div></div><h3>AI-Powered Writing Assistant</h3> <p>Enter your role and select bullet point templates to help you get started.</p><div class="form"> <input type="text" id="select_roletemplate" placeholder="Enter your role" list="job-titles"> <select id="select_roletemplate_b" required=""> <option disabled="" selected="" value="">Select your role</option> <option value="accountant">Accountant</option> <option value="administrativeassistant">Administrative Assistant</option> <option value="backenddeveloper">Back End Developer</option> <option value="cashier">Cashier</option> <option value="customersupport">Customer Support</option> <option value="dataengineer">Data Engineer</option> <option value="digitalmarketer">Digital Marketer</option> <option value="devopsengineer">DevOps Engineer</option> <option value="schoolteacher">Elementary School Teacher</option> <option value="frontenddeveloper">Front End Developer</option> <option value="fullstackdeveloper">Full Stack Developer</option> <option value="generalmanager">General Manager</option> <option value="graphicdesigner">Graphic Designer</option> <option value="marketingmanager">Marketing Manager</option> <option value="nursingassistant">Nursing Assistant</option> <option value="officeclerk">Office Clerk</option> <option value="productdesigner">Product Designer</option> <option value="retailsalesassociate">Retail Sales Associate</option> <option value="salesmanager">Sales Manager</option> <option value="server">Server</option> <option value="softwareengineer">Software Engineer</option> <option value="uxdesigner">UX Designer</option> <option value="uxresearcher">UX Researcher</option> </select> <input class="tgl tgl-flat" type="checkbox" id="current_job" onchange="javascript:change_current_job();"> <label class="tgl-btn" for="current_job" style="border-color: rgb(42, 185, 147);"></label> <span class="label_grandes">Use present tense</span> </div><div class="btn" id="generate_bullets" style="background: rgb(42, 185, 147);">GENERATE BULLETS POINTS</div><div id="template_placeholder" class="color" style="color: rgb(42, 185, 147);"></div><div class="btn" id="usetemplate" style="background: rgb(42, 185, 147);">ADD TO EXPERIENCE<span>0</span></div></div></div><div id="modal_help2" class="modal noai" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="cute-robot-v1"> <div class="labelbotones">Woo-hoo!</div><div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div><div class="robot-head" style="border-color: rgb(42, 185, 147);"> <div class="robot-face" style="border-color: rgb(42, 185, 147);"> <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div><div class="eyes right" style="border-color: rgb(42, 185, 147);"></div><div class="mouth" style="border-color: rgb(42, 185, 147);"></div></div></div><div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div><div class="robot-body" style="border-color: rgb(42, 185, 147);"></div></div></div><h3>AI-Powered Writing Assistant</h3> <p>Enter your role and choose a professional summary template to help you get started.</p><div class="form"> <input type="text" id="select_roletemplate2" placeholder="Enter your role" list="job-titles"> <select id="select_roletemplate2_b" required="">ㅤㅤㅤㅤㅤㅤ <option disabled="" selected="" value="">Select your role</option> <option value="accountant">Accountant</option> <option value="administrativeassistant">Administrative Assistant</option> <option value="backenddeveloper">Back End Developer</option> <option value="cashier">Cashier</option> <option value="customersupport">Customer Support</option> <option value="dataengineer">Data Engineer</option> <option value="digitalmarketer">Digital Marketer</option> <option value="devopsengineer">DevOps Engineer</option> <option value="schoolteacher">Elementary School Teacher</option> <option value="frontenddeveloper">Front End Developer</option> <option value="fullstackdeveloper">Full Stack Developer</option> <option value="generalmanager">General Manager</option> <option value="graphicdesigner">Graphic Designer</option> <option value="marketingmanager">Marketing Manager</option> <option value="nursingassistant">Nursing Assistant</option> <option value="officeclerk">Office Clerk</option> <option value="productdesigner">Product Designer</option> <option value="retailsalesassociate">Retail Sales Associate</option> <option value="salesmanager">Sales Manager</option> <option value="server">Server</option> <option value="softwareengineer">Software Engineer</option> <option value="uxdesigner">UX Designer</option> <option value="uxresearcher">UX Researcher</option> </select> <select id="select_experience" required="">ㅤㅤㅤㅤㅤㅤ <option disabled="" selected="" value="">Select your experience</option> <option value="1">Little/No experience</option> <option value="2">Some experience</option> <option value="3">A lot of experience</option> </select> </div><div class="btn" id="generate_bullets2" style="background: rgb(42, 185, 147);">GENERATE SUMMARY</div><p id="template_placeholder2"></p><div class="btn color" id="looptemplate2" style="color: rgb(42, 185, 147); background: rgb(42, 185, 147);">GENERATE NEW ONE</div><div class="btn" id="usetemplate2" style="background: rgb(42, 185, 147);">USE SUMMARY</div></div></div><div id="modal_help3" class="modal noai" style="opacity: 0; display: none;"> <div class="centradovertical" style=""> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="cute-robot-v1"> <div class="labelbotones">Woo-hoo!</div><div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div><div class="robot-head" style="border-color: rgb(42, 185, 147);"> <div class="robot-face" style="border-color: rgb(42, 185, 147);"> <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div><div class="eyes right" style="border-color: rgb(42, 185, 147);"></div><div class="mouth" style="border-color: rgb(42, 185, 147);"></div></div></div><div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div><div class="robot-body" style="border-color: rgb(42, 185, 147);"></div></div></div><h3>AI-Powered Writing Assistant</h3> <p>Enter your role and select the hard skills that you possess.</p><div class="form"> <input type="text" id="select_roletemplate3" placeholder="Enter your role" list="job-titles"> <select id="select_roletemplate3_b" required="">ㅤㅤㅤㅤㅤㅤ <option disabled="" selected="" value="">Select your role</option> <option value="accountant">Accountant</option> <option value="administrativeassistant">Administrative Assistant</option> <option value="backenddeveloper">Back End Developer</option> <option value="cashier">Cashier</option> <option value="customersupport">Customer Support</option> <option value="dataengineer">Data Engineer</option> <option value="digitalmarketer">Digital Marketer</option> <option value="devopsengineer">DevOps Engineer</option> <option value="schoolteacher">Elementary School Teacher</option> <option value="frontenddeveloper">Front End Developer</option> <option value="fullstackdeveloper">Full Stack Developer</option> <option value="generalmanager">General Manager</option> <option value="graphicdesigner">Graphic Designer</option> <option value="marketingmanager">Marketing Manager</option> <option value="nursingassistant">Nursing Assistant</option> <option value="officeclerk">Office Clerk</option> <option value="productdesigner">Product Designer</option> <option value="retailsalesassociate">Retail Sales Associate</option> <option value="salesmanager">Sales Manager</option> <option value="server">Server</option> <option value="softwareengineer">Software Engineer</option> <option value="uxdesigner">UX Designer</option> <option value="uxresearcher">UX Researcher</option> </select> </div><div class="btn" id="generate_bullets3" style="background: rgb(42, 185, 147); display: none;">GENERATE HARD SKILLS</div><div id="template_skills1" class="color" style="color: rgb(42, 185, 147); display: block;"><div class="skills_item assistant_selected">jQuery</div><div class="skills_item">PHP</div><div class="skills_item">Test-Driven Development</div><div class="skills_item assistant_selected">Angular</div><div class="skills_item">Object-Oriented Design</div><div class="skills_item">HTML</div><div class="skills_item">User Experience Design</div><div class="skills_item">React</div><div class="skills_item">TypeScript</div><div class="skills_item">XML</div><div class="skills_item">Bootstrap</div><div class="skills_item">Semantic HTML</div><div class="skills_item">Accessibility</div><div class="skills_item">WebSockets</div><div class="skills_item">AJAX</div><div class="skills_item">GraphQL</div><div class="skills_item">Yarn</div><div class="skills_item">Responsive Web Design</div><div class="skills_item">Node.js</div><div class="skills_item">Webpack</div><div class="skills_item">Web Templates</div><div class="skills_item assistant_selected">JavaScript</div><div class="skills_item">LESS</div><div class="skills_item">Security</div><div class="skills_item">CSS</div><div class="skills_item">Sass</div><div class="skills_item">Web Standards</div><div class="skills_item">Vue.js</div><div class="skills_item">Git</div></div><div class="btn" id="confirm_skills1" style="background: rgb(42, 185, 147); display: block;">ADD HARD SKILLS<span>3</span></div></div></div><div id="modal_help4" class="modal noai" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="cute-robot-v1"> <div class="labelbotones">Woo-hoo!</div><div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div><div class="robot-head" style="border-color: rgb(42, 185, 147);"> <div class="robot-face" style="border-color: rgb(42, 185, 147);"> <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div><div class="eyes right" style="border-color: rgb(42, 185, 147);"></div><div class="mouth" style="border-color: rgb(42, 185, 147);"></div></div></div><div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div><div class="robot-body" style="border-color: rgb(42, 185, 147);"></div></div></div><h3>AI-Powered Writing Assistant</h3> <p>Enter your role and select the soft skills that you possess.</p><input type="text" id="select_roletemplate4" placeholder="Enter your role" list="job-titles"> <form> <select id="select_roletemplate4_B" required="">ㅤㅤㅤㅤㅤㅤ <option disabled="" selected="" value="">Select your role</option> <option value="accountant">Accountant</option> <option value="administrativeassistant">Administrative Assistant</option> <option value="backenddeveloper">Back End Developer</option> <option value="cashier">Cashier</option> <option value="customersupport">Customer Support</option> <option value="dataengineer">Data Engineer</option> <option value="digitalmarketer">Digital Marketer</option> <option value="devopsengineer">DevOps Engineer</option> <option value="schoolteacher">Elementary School Teacher</option> <option value="frontenddeveloper">Front End Developer</option> <option value="fullstackdeveloper">Full Stack Developer</option> <option value="generalmanager">General Manager</option> <option value="graphicdesigner">Graphic Designer</option> <option value="marketingmanager">Marketing Manager</option> <option value="nursingassistant">Nursing Assistant</option> <option value="officeclerk">Office Clerk</option> <option value="productdesigner">Product Designer</option> <option value="retailsalesassociate">Retail Sales Associate</option> <option value="salesmanager">Sales Manager</option> <option value="server">Server</option> <option value="softwareengineer">Software Engineer</option> <option value="uxdesigner">UX Designer</option> <option value="uxresearcher">UX Researcher</option> </select> </form> <div class="btn" id="generate_bullets4" style="background: rgb(42, 185, 147);">GENERATE SOFT SKILLS</div><div id="template_skills2" class="color" style="color: rgb(42, 185, 147);"></div><div class="btn" id="confirm_skills2" style="background: rgb(42, 185, 147);">ADD SOFT SKILLS<span>0</span></div></div></div><div id="modal_help5" class="modal" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><div class="cute-robot-v1"> <div class="labelbotones">Woo-hoo!</div><div class="circle-bg" style="border-color: rgb(42, 185, 147);"> <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div><div class="robot-head" style="border-color: rgb(42, 185, 147);"> <div class="robot-face" style="border-color: rgb(42, 185, 147);"> <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div><div class="eyes right" style="border-color: rgb(42, 185, 147);"></div><div class="mouth" style="border-color: rgb(42, 185, 147);"></div></div></div><div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div><div class="robot-body" style="border-color: rgb(42, 185, 147);"></div></div></div><h3>AI-Powered Writing Assistant</h3> <p>Select your hobbies.</p><div id="template_hobbies" class="color" style="color: rgb(42, 185, 147);"> </div><div class="btn" id="confirm_hobbies" style="background: rgb(42, 185, 147);">ADD HOBBIES<span>0</span></div></div></div><div id="modal_gracias" class="modal" style="opacity: 0; display: none;"> <div class="centradovertical"> <div class="freedownload"> <h3>Free Download</h3> <p>ResumeMaker.Online offers free resumes (with watermark)<span class="desktop"> to job seekers who need the most help</span>.<span> Share on social media to unlock the free download:</span></p><span class="color" id="free_btn" style="color: rgb(42, 185, 147);">Download Free Resume<div class="color_estrellas" style="background-color: rgb(42, 185, 147);"> <svg class="unlocked_download" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-197 320.9 200 200" style="enable-background:new -197 320.9 200 200;width: 100%;position: absolute;" xml:space="preserve"> <path class="st0" d="M-75.7,416.3H-49l-48,45.9l-48-45.9h26.6v-50.5h42.6v50.5H-75.7z M-70.4,466.8h-53.3v9.2h53.3 C-70.4,476-70.4,466.8-70.4,466.8z" style="fill: white;"></path></svg> <svg class="unlocked_lock" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;width: 100%;position: absolute;"><style>.st0{fill:#fff}</style><path class="st0" d="M-3356 1448c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3v-43.3c0-2.4 1.9-4.3 4.3-4.3s4.3 1.9 4.3 4.3V1448zM-3338.7 1448c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3v-43.3c0-2.4 1.9-4.3 4.3-4.3s4.3 1.9 4.3 4.3V1448zM-3321.3 1448c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3v-43.3c0-2.4 1.9-4.3 4.3-4.3s4.3 1.9 4.3 4.3V1448zM-3299.7 1374.3v8.7h-86.7v-8.7h24.7c3.9.0 7.1-4.8 7.1-8.7h23c0 3.9 3.2 8.7 7.1 8.7H-3299.7zM-3312.7 1391.7v69.3h-60.7v-69.3h-8.7v78h78v-78H-3312.7z" style="fill: white;"></path><path class="st0" d="M129.6 90.1V70.4c0-16.4-13.3-29.6-29.6-29.6S70.4 54 70.4 70.4v19.8H55.5v69.1h88.9V90.1H129.6zM80.2 90.1V70.4c0-10.9 8.9-19.8 19.8-19.8s19.8 8.9 19.8 19.8v19.8H80.2z" style="fill: white;"></path></svg> </div></span> <span>Share to unlock your free download:</span> <a class="social_download fb social_unlock" href="https://www.facebook.com/sharer/sharer.php?u=https://www.resumemaker.online/"><img alt="" src="./assets/fb_free.svg"></a> <a class="social_download tw social_unlock" href="https://twitter.com/intent/tweet?text=Making%20a%20resume%20can%20be%20tough,%20but%20this%20website%20makes%20it%20easy%20and%20free!%20No%20sign-up%20required,%20just%20check%20it%20out!&amp;url=https://www.resumemaker.online/+%23Resume+%23ResumeTips+%23ResumeWriting+%23JobSearch+%23JobHunt+%23JobTips+%23JobSeekers+%23Jobs+%23Career+%23CareerAdvice+%23Employment+%23HR+%23CV+%23Free+%23Template"><img alt="" src="./assets/tw_free.svg"></a> <a class="social_download in social_unlock" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.resumemaker.online/"><img alt="" src="./assets/in_free.svg"></a> </div><div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div><h3 class="color" style="color: rgb(42, 185, 147);">PDF Download</h3> <div style="clear: both"></div><div class="price"> <span></span> <span id="pricemain"><span class="cents"></span></span> <span>Per download</span> </div><div id="pro_bullets"> <div style="display: block"><div class="color_estrellas" style="background-color: rgb(42, 185, 147);"></div><div>High Resolution PDF<span class="color" id="try" style="color: rgb(42, 185, 147);">Try it first before you buy<div class="color_estrellas" style="background-color: rgb(42, 185, 147);"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-197 320.9 200 200" style="enable-background:new -197 320.9 200 200;width: 100%;position: absolute;" xml:space="preserve"> <path class="st0" d="M-75.7,416.3H-49l-48,45.9l-48-45.9h26.6v-50.5h42.6v50.5H-75.7z M-70.4,466.8h-53.3v9.2h53.3 C-70.4,476-70.4,466.8-70.4,466.8z" style="fill: white;"></path></svg></div></span></div></div><div style="display: block"><div class="color_estrellas" style="background-color: rgb(42, 185, 147);"></div><div style="line-height: 3.6rem;">No Watermark</div></div><div style="display: block;height: auto;margin-bottom: 2rem;"><div class="color_estrellas" style="background-color: rgb(42, 185, 147);"></div><div>Optimized for ATS<span>ATS systems are used to track candidates during the hiring process.</span></div></div></div><div class="divider"><span>You'll be redirected back after payment is complete</span></div><div id="paypal-button-container"></div></div></div><datalist id="job-titles"><!-- <option value="Accountant"> <option value="Administrative Assistant"> <option value="Back End Developer"> <option value="Cashier"> <option value="Customer Support"> <option value="Data Engineer"> <option value="DevOps Engineer"> <option value="Digital Marketer"> <option value="Front End Developer"> <option value="Full Stack Developer"> <option value="General Manager"> <option value="Graphic Designer"> <option value="Marketing Manager"> <option value="Nursing Assistant"> <option value="Office Clerk"> <option value="Product Designer"> <option value="Retail Sales Associate"> <option value="Sales Manager"> <option value="School Teacher"> <option value="Server"> <option value="Software Engineer"> <option value="UX Designer"> <option value="UX Researcher"> --> </datalist> </div><script type="text/javascript" src="./assets/scripts.js.download"></script> <script defer="" src="./assets/beacon.min.js.download" data-cf-beacon="{&quot;token&quot;: &quot;80f19ac2de4140b28d72a483a93a1bef&quot;}"></script> <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;" data-dashlane-shadowhost="true" data-dashlane-observed="true"><template shadowrootmode="open">
+    <div id="modal_pagook" class="modal" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="cute-robot-v1"> <div class="labelbotones">Woo-hoo!</div>
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-head" style="border-color: rgb(42, 185, 147);">
+                        <div class="robot-face" style="border-color: rgb(42, 185, 147);">
+                            <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="eyes right" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="mouth" style="border-color: rgb(42, 185, 147);"></div>
+                        </div>
+                    </div>
+                    <div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-body" style="border-color: rgb(42, 185, 147);"></div>
+                </div>
+            </div>
+            <h3 class="">Payment approved</h3>
+            <p style="margin-bottom: 0;">Your download will now begin automatically and will be saved in your device's downloads folder. <br><br>Thank you for your purchase!</p>
+            <div class="btn" onclick="javascript:cerrarmodal();" style="background: rgb(42, 185, 147);">ACCEPT</div>
+        </div>
+    </div>
+    <div id="modal_continue" class="modal" style="display: none; opacity: 0;">
+        <div class="centradovertical" style="">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="paper-icon-v1">
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="paper-big" style="border-color: rgb(42, 185, 147);">
+                        <div class="fold" style="border-color: rgb(42, 185, 147);"></div>
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-197 320.9 200 200" style="border-color: rgb(42, 185, 147);" xml:space="preserve">
+                            <path class="st0" d="M-75.7,416.3H-49l-48,45.9l-48-45.9h26.6v-50.5h42.6v50" style="border-color: rgb(42, 185, 147); fill: white;"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <h3>Load last saved Resume</h3>
+            <p>You have a saved resume, would you like to load it or create a new one?</p>
+            <div class="btn color" id="new_resume" onclick="javascript:cerrarmodal();" style="color: rgb(42, 185, 147); background: rgb(42, 185, 147);">New Resume</div>
+            <div class="btn" id="load_resume" onclick="javascript:continue_resume();" style="background: rgb(42, 185, 147);">Load Resume</div>
+        </div>
+    </div>
+    <div id="modal_sepaso" class="modal" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="cerrar_modal cerrar_nosepuede" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="paper-icon-v1">
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="paper-big" style="border-color: rgb(42, 185, 147);">
+                        <div class="fold" style="border-color: rgb(42, 185, 147);"></div>
+                    </div>
+                </div>
+            </div>
+            <h3>A4 paper size exceeded</h3>
+            <p>While you can ignore this recommendation, bear in mind that the average recruiter scans a resume for six seconds before deciding if the applicant is a good fit for the role, so it is recommended to keep your resume focused and on one page. </p>
+            <div class="btn cerrar_nosepuede" onclick="javascript:cerrarmodal();" style="background: rgb(42, 185, 147);">ACCEPT</div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="modal_check1">
+                <label class="checkbox" for="modal_check1" style="background: rgb(42, 185, 147); border-color: rgb(42, 185, 147);"></label>
+                <label for="modal_check1">Don´t show again</label>
+            </div>
+        </div>
+    </div>
+    <div id="modal_tamanook" class="modal" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="paper-icon-v1"> <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                <div class="paper-big" style="border-color: rgb(42, 185, 147);">
+                    <div class="fold" style="border-color: rgb(42, 185, 147);"></div>
+                </div>
+            </div>
+            </div>
+            <h3>A4 paper size no longer exceeded</h3>
+            <p>Now all your resume content fits on one A4 page.<br>Short and sweet!</p>
+            <div class="btn" onclick="javascript:cerrarmodal();" style="background: rgb(42, 185, 147);">ACCEPT</div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="modal_check2">
+                <label class="checkbox" for="modal_check2" style="background: rgb(42, 185, 147); border-color: rgb(42, 185, 147);"></label>
+                <label for="modal_check2">Don´t show again</label>
+            </div>
+        </div>
+    </div>
+    <div id="modal_saveshare" class="modal" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="paper-icon-v1">
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="paper-big" style="border-color: rgb(42, 185, 147);">
+                        <div class="fold" style="border-color: rgb(42, 185, 147);"></div>
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-197 320.9 200 200" style="border-color: rgb(42, 185, 147);" xml:space="preserve">
+                            <path class="st0" d="M-75.7,416.3H-49l-48,45.9l-48-45.9h26.6v-50.5h42.6v50" style="border-color: rgb(42, 185, 147); fill: white;"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <h3>Progress Saved</h3>
+            <p>Your resume data has been successfully stored on your device. You can load it to pick up where you left off.</p>
+            <div class="btn" onclick="javascript:cerrarmodal();" style="background: rgb(42, 185, 147);">
+                <div>ACCEPT</div>
+            </div>
+            <div class="checkbox-container">
+                <input type="checkbox" id="modal_check3">
+                <label class="checkbox" for="modal_check3" style="background: rgb(42, 185, 147); border-color: rgb(42, 185, 147);"></label>
+                <label for="modal_check3">Don´t show again</label>
+            </div>
+        </div>
+    </div>
+    <div id="modal_help" class="modal noai" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="cute-robot-v1">
+                <div class="labelbotones">Woo-hoo!</div>
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-head" style="border-color: rgb(42, 185, 147);">
+                        <div class="robot-face" style="border-color: rgb(42, 185, 147);">
+                            <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="eyes right" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="mouth" style="border-color: rgb(42, 185, 147);"></div>
+                        </div>
+                    </div>
+                    <div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-body" style="border-color: rgb(42, 185, 147);"></div>
+                </div>
+            </div>
+            <h3>AI-Powered Writing Assistant</h3>
+            <p>Enter your role and select bullet point templates to help you get started.</p>
+            <div class="form">
+                <input type="text" id="select_roletemplate" placeholder="Enter your role" list="job-titles">
+                <select id="select_roletemplate_b" required="">
+                    <option disabled="" selected="" value="">Select your role</option>
+                    <option value="accountant">Accountant</option>
+                    <option value="administrativeassistant">Administrative Assistant</option>
+                    <option value="backenddeveloper">Back End Developer</option>
+                    <option value="cashier">Cashier</option>
+                    <option value="customersupport">Customer Support</option>
+                    <option value="dataengineer">Data Engineer</option>
+                    <option value="digitalmarketer">Digital Marketer</option>
+                    <option value="devopsengineer">DevOps Engineer</option>
+                    <option value="schoolteacher">Elementary School Teacher</option>
+                    <option value="frontenddeveloper">Front End Developer</option>
+                    <option value="fullstackdeveloper">Full Stack Developer</option>
+                    <option value="generalmanager">General Manager</option>
+                    <option value="graphicdesigner">Graphic Designer</option>
+                    <option value="marketingmanager">Marketing Manager</option>
+                    <option value="nursingassistant">Nursing Assistant</option>
+                    <option value="officeclerk">Office Clerk</option>
+                    <option value="productdesigner">Product Designer</option>
+                    <option value="retailsalesassociate">Retail Sales Associate</option>
+                    <option value="salesmanager">Sales Manager</option>
+                    <option value="server">Server</option>
+                    <option value="softwareengineer">Software Engineer</option>
+                    <option value="uxdesigner">UX Designer</option>
+                    <option value="uxresearcher">UX Researcher</option>
+                </select>
+                <input class="tgl tgl-flat" type="checkbox" id="current_job" onchange="javascript:change_current_job();">
+                <label class="tgl-btn" for="current_job" style="border-color: rgb(42, 185, 147);"></label>
+                <span class="label_grandes">Use present tense</span>
+            </div>
+            <div class="btn" id="generate_bullets" style="background: rgb(42, 185, 147);">GENERATE BULLETS POINTS</div>
+            <div id="template_placeholder" class="color" style="color: rgb(42, 185, 147);"></div>
+            <div class="btn" id="usetemplate" style="background: rgb(42, 185, 147);">ADD TO EXPERIENCE<span>0</span></div>
+        </div>
+    </div>
+    <div id="modal_help2" class="modal noai" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="cute-robot-v1">
+                <div class="labelbotones">Woo-hoo!</div>
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-head" style="border-color: rgb(42, 185, 147);">
+                        <div class="robot-face" style="border-color: rgb(42, 185, 147);">
+                            <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="eyes right" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="mouth" style="border-color: rgb(42, 185, 147);"></div>
+                        </div>
+                    </div>
+                    <div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-body" style="border-color: rgb(42, 185, 147);"></div>
+                </div>
+            </div>
+            <h3>AI-Powered Writing Assistant</h3>
+            <p>Enter your role and choose a professional summary template to help you get started.</p>
+            <div class="form">
+                <input type="text" id="select_roletemplate2" placeholder="Enter your role" list="job-titles">
+                <select id="select_roletemplate2_b" required="">ㅤㅤㅤㅤㅤㅤ
+                    <option disabled="" selected="" value="">Select your role</option>
+                    <option value="accountant">Accountant</option>
+                    <option value="administrativeassistant">Administrative Assistant</option>
+                    <option value="backenddeveloper">Back End Developer</option>
+                    <option value="cashier">Cashier</option>
+                    <option value="customersupport">Customer Support</option>
+                    <option value="dataengineer">Data Engineer</option>
+                    <option value="digitalmarketer">Digital Marketer</option>
+                    <option value="devopsengineer">DevOps Engineer</option>
+                    <option value="schoolteacher">Elementary School Teacher</option>
+                    <option value="frontenddeveloper">Front End Developer</option>
+                    <option value="fullstackdeveloper">Full Stack Developer</option>
+                    <option value="generalmanager">General Manager</option>
+                    <option value="graphicdesigner">Graphic Designer</option>
+                    <option value="marketingmanager">Marketing Manager</option>
+                    <option value="nursingassistant">Nursing Assistant</option>
+                    <option value="officeclerk">Office Clerk</option>
+                    <option value="productdesigner">Product Designer</option>
+                    <option value="retailsalesassociate">Retail Sales Associate</option>
+                    <option value="salesmanager">Sales Manager</option>
+                    <option value="server">Server</option>
+                    <option value="softwareengineer">Software Engineer</option>
+                    <option value="uxdesigner">UX Designer</option>
+                    <option value="uxresearcher">UX Researcher</option>
+                </select>
+                <select id="select_experience" required="">ㅤ
+                    <option disabled="" selected="" value="">Select your experience</option>
+                    <option value="1">Little/No experience</option>
+                    <option value="2">Some experience</option>
+                    <option value="3">A lot of experience</option>
+                </select>
+            </div>
+            <div class="btn" id="generate_bullets2" style="background: rgb(42, 185, 147);">GENERATE SUMMARY</div>
+            <p id="template_placeholder2"></p>
+            <div class="btn color" id="looptemplate2" style="color: rgb(42, 185, 147); background: rgb(42, 185, 147);">GENERATE NEW ONE</div>
+            <div class="btn" id="usetemplate2" style="background: rgb(42, 185, 147);">USE SUMMARY</div>
+        </div>
+    </div>
+    <div id="modal_help3" class="modal noai" style="opacity: 0; display: none;">
+        <div class="centradovertical" style="">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="cute-robot-v1">
+                <div class="labelbotones">Woo-hoo!</div>
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-head" style="border-color: rgb(42, 185, 147);">
+                        <div class="robot-face" style="border-color: rgb(42, 185, 147);">
+                            <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="eyes right" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="mouth" style="border-color: rgb(42, 185, 147);"></div>
+                        </div>
+                    </div>
+                    <div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-body" style="border-color: rgb(42, 185, 147);"></div>
+                </div>
+            </div>
+            <h3>AI-Powered Writing Assistant</h3>
+            <p>Enter your role and select the hard skills that you possess.</p>
+            <div class="form">
+                <input type="text" id="select_roletemplate3" placeholder="Enter your role" list="job-titles">
+                <select id="select_roletemplate3_b" required="">ㅤㅤㅤ
+                    <option disabled="" selected="" value="">Select your role</option>
+                    <option value="accountant">Accountant</option>
+                    <option value="administrativeassistant">Administrative Assistant</option>
+                    <option value="backenddeveloper">Back End Developer</option>
+                    <option value="cashier">Cashier</option>
+                    <option value="customersupport">Customer Support</option>
+                    <option value="dataengineer">Data Engineer</option>
+                    <option value="digitalmarketer">Digital Marketer</option>
+                    <option value="devopsengineer">DevOps Engineer</option>
+                    <option value="schoolteacher">Elementary School Teacher</option>
+                    <option value="frontenddeveloper">Front End Developer</option>
+                    <option value="fullstackdeveloper">Full Stack Developer</option>
+                    <option value="generalmanager">General Manager</option>
+                    <option value="graphicdesigner">Graphic Designer</option>
+                    <option value="marketingmanager">Marketing Manager</option>
+                    <option value="nursingassistant">Nursing Assistant</option>
+                    <option value="officeclerk">Office Clerk</option>
+                    <option value="productdesigner">Product Designer</option>
+                    <option value="retailsalesassociate">Retail Sales Associate</option>
+                    <option value="salesmanager">Sales Manager</option>
+                    <option value="server">Server</option>
+                    <option value="softwareengineer">Software Engineer</option>
+                    <option value="uxdesigner">UX Designer</option>
+                    <option value="uxresearcher">UX Researcher</option>
+                </select>
+            </div>
+            <div class="btn" id="generate_bullets3" style="background: rgb(42, 185, 147); display: none;">GENERATE HARD SKILLS</div>
+            <div id="template_skills1" class="color" style="color: rgb(42, 185, 147); display: block;">
+                <div class="skills_item assistant_selected">jQuery</div>
+                <div class="skills_item">PHP</div>
+                <div class="skills_item">Test-Driven Development</div>
+                <div class="skills_item assistant_selected">Angular</div>
+                <div class="skills_item">Object-Oriented Design</div>
+                <div class="skills_item">HTML</div>
+                <div class="skills_item">User Experience Design</div>
+                <div class="skills_item">React</div>
+                <div class="skills_item">TypeScript</div>
+                <div class="skills_item">XML</div>
+                <div class="skills_item">Bootstrap</div>
+                <div class="skills_item">Semantic HTML</div>
+                <div class="skills_item">Accessibility</div>
+                <div class="skills_item">WebSockets</div>
+                <div class="skills_item">AJAX</div>
+                <div class="skills_item">GraphQL</div>
+                <div class="skills_item">Yarn</div>
+                <div class="skills_item">Responsive Web Design</div>
+                <div class="skills_item">Node.js</div>
+                <div class="skills_item">Webpack</div>
+                <div class="skills_item">Web Templates</div>
+                <div class="skills_item assistant_selected">JavaScript</div>
+                <div class="skills_item">LESS</div>
+                <div class="skills_item">Security</div>
+                <div class="skills_item">CSS</div>
+                <div class="skills_item">Sass</div>
+                <div class="skills_item">Web Standards</div>
+                <div class="skills_item">Vue.js</div>
+                <div class="skills_item">Git</div>
+            </div>
+            <div class="btn" id="confirm_skills1" style="background: rgb(42, 185, 147); display: block;">ADD HARD SKILLS<span>3</span></div>
+        </div>
+    </div>
+    <div id="modal_help4" class="modal noai" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="cute-robot-v1">
+                <div class="labelbotones">Woo-hoo!</div>
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-head" style="border-color: rgb(42, 185, 147);">
+                        <div class="robot-face" style="border-color: rgb(42, 185, 147);">
+                            <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="eyes right" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="mouth" style="border-color: rgb(42, 185, 147);"></div>
+                        </div>
+                    </div>
+                    <div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-body" style="border-color: rgb(42, 185, 147);"></div>
+                </div>
+            </div>
+            <h3>AI-Powered Writing Assistant</h3>
+            <p>Enter your role and select the soft skills that you possess.</p>
+            <input type="text" id="select_roletemplate4" placeholder="Enter your role" list="job-titles">
+            <form>
+                <select id="select_roletemplate4_B" required="">ㅤ
+                    <option disabled="" selected="" value="">Select your role</option>
+                    <option value="accountant">Accountant</option>
+                    <option value="administrativeassistant">Administrative Assistant</option>
+                    <option value="backenddeveloper">Back End Developer</option>
+                    <option value="cashier">Cashier</option>
+                    <option value="customersupport">Customer Support</option>
+                    <option value="dataengineer">Data Engineer</option>
+                    <option value="digitalmarketer">Digital Marketer</option>
+                    <option value="devopsengineer">DevOps Engineer</option>
+                    <option value="schoolteacher">Elementary School Teacher</option>
+                    <option value="frontenddeveloper">Front End Developer</option>
+                    <option value="fullstackdeveloper">Full Stack Developer</option>
+                    <option value="generalmanager">General Manager</option>
+                    <option value="graphicdesigner">Graphic Designer</option>
+                    <option value="marketingmanager">Marketing Manager</option>
+                    <option value="nursingassistant">Nursing Assistant</option>
+                    <option value="officeclerk">Office Clerk</option>
+                    <option value="productdesigner">Product Designer</option>
+                    <option value="retailsalesassociate">Retail Sales Associate</option>
+                    <option value="salesmanager">Sales Manager</option>
+                    <option value="server">Server</option>
+                    <option value="softwareengineer">Software Engineer</option>
+                    <option value="uxdesigner">UX Designer</option>
+                    <option value="uxresearcher">UX Researcher</option>
+                </select>
+            </form>
+            <div class="btn" id="generate_bullets4" style="background: rgb(42, 185, 147);">GENERATE SOFT SKILLS</div>
+            <div id="template_skills2" class="color" style="color: rgb(42, 185, 147);"></div>
+            <div class="btn" id="confirm_skills2" style="background: rgb(42, 185, 147);">ADD SOFT SKILLS<span>0</span></div>
+        </div>
+    </div>
+    <div id="modal_help5" class="modal" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <div class="cute-robot-v1">
+                <div class="labelbotones">Woo-hoo!</div>
+                <div class="circle-bg" style="border-color: rgb(42, 185, 147);">
+                    <div class="robot-ear left" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-head" style="border-color: rgb(42, 185, 147);">
+                        <div class="robot-face" style="border-color: rgb(42, 185, 147);">
+                            <div class="eyes left" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="eyes right" style="border-color: rgb(42, 185, 147);"></div>
+                            <div class="mouth" style="border-color: rgb(42, 185, 147);"></div>
+                        </div>
+                    </div>
+                    <div class="robot-ear right" style="border-color: rgb(42, 185, 147);"></div>
+                    <div class="robot-body" style="border-color: rgb(42, 185, 147);"></div>
+                </div>
+            </div>
+            <h3>AI-Powered Writing Assistant</h3>
+            <p>Select your hobbies.</p>
+            <div id="template_hobbies" class="color" style="color: rgb(42, 185, 147);"> </div>
+            <div class="btn" id="confirm_hobbies" style="background: rgb(42, 185, 147);">ADD HOBBIES<span>0</span></div>
+        </div>
+    </div>
+    <div id="modal_gracias" class="modal" style="opacity: 0; display: none;">
+        <div class="centradovertical">
+            <div class="freedownload">
+                <h3>Free Download</h3>
+                <p>ResumeMaker.Online offers free resumes (with watermark)<span class="desktop"> to job seekers who need the most help</span>.<span> Share on social media to unlock the free download:</span></p>
+                <span class="color" id="free_btn" style="color: rgb(42, 185, 147);">Download Free Resume
+                    <div class="color_estrellas" style="background-color: rgb(42, 185, 147);">
+                        <svg class="unlocked_download" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-197 320.9 200 200" style="enable-background:new -197 320.9 200 200;width: 100%;position: absolute;" xml:space="preserve">
+                            <path class="st0" d="M-75.7,416.3H-49l-48,45.9l-48-45.9h26.6v-50.5h42.6v50.5H-75.7z M-70.4,466.8h-53.3v9.2h53.3 C-70.4,476-70.4,466.8-70.4,466.8z" style="fill: white;"></path>
+                        </svg>
+                        <svg class="unlocked_lock" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;width: 100%;position: absolute;">
+                            <style>.st0{fill:#fff}</style>
+                            <path class="st0" d="M-3356 1448c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3v-43.3c0-2.4 1.9-4.3 4.3-4.3s4.3 1.9 4.3 4.3V1448zM-3338.7 1448c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3v-43.3c0-2.4 1.9-4.3 4.3-4.3s4.3 1.9 4.3 4.3V1448zM-3321.3 1448c0 2.4-1.9 4.3-4.3 4.3s-4.3-1.9-4.3-4.3v-43.3c0-2.4 1.9-4.3 4.3-4.3s4.3 1.9 4.3 4.3V1448zM-3299.7 1374.3v8.7h-86.7v-8.7h24.7c3.9.0 7.1-4.8 7.1-8.7h23c0 3.9 3.2 8.7 7.1 8.7H-3299.7zM-3312.7 1391.7v69.3h-60.7v-69.3h-8.7v78h78v-78H-3312.7z" style="fill: white;"></path>
+                            <path class="st0" d="M129.6 90.1V70.4c0-16.4-13.3-29.6-29.6-29.6S70.4 54 70.4 70.4v19.8H55.5v69.1h88.9V90.1H129.6zM80.2 90.1V70.4c0-10.9 8.9-19.8 19.8-19.8s19.8 8.9 19.8 19.8v19.8H80.2z" style="fill: white;"></path>
+                        </svg>
+                    </div>
+                </span>
+                <span>Share to unlock your free download:</span>
+                <a class="social_download fb social_unlock" href="https://www.facebook.com/sharer/sharer.php?u=https://www.resumemaker.online/">
+                    <img alt="" src="./assets/fb_free.svg">
+                </a>
+                <a class="social_download tw social_unlock" href="https://twitter.com/intent/tweet?text=Making%20a%20resume%20can%20be%20tough,%20but%20this%20website%20makes%20it%20easy%20and%20free!%20No%20sign-up%20required,%20just%20check%20it%20out!&amp;url=https://www.resumemaker.online/+%23Resume+%23ResumeTips+%23ResumeWriting+%23JobSearch+%23JobHunt+%23JobTips+%23JobSeekers+%23Jobs+%23Career+%23CareerAdvice+%23Employment+%23HR+%23CV+%23Free+%23Template">
+                    <img alt="" src="./assets/tw_free.svg">
+                </a>
+                <a class="social_download in social_unlock" href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.resumemaker.online/">
+                    <img alt="" src="./assets/in_free.svg">
+                </a>
+            </div>
+            <div class="cerrar_modal" onclick="javascript:cerrarmodal();" style="background-color: rgb(185, 42, 80);"></div>
+            <h3 class="color" style="color: rgb(42, 185, 147);">PDF Download</h3>
+            <div style="clear: both"></div>
+            <div class="price">
+                <span></span>
+                <span id="pricemain">
+                    <span class="cents"></span>
+                </span>
+                <span>Per download</span>
+            </div>
+            <div id="pro_bullets">
+                <div style="display: block">
+                    <div class="color_estrellas" style="background-color: rgb(42, 185, 147);"></div>
+                    <div>High Resolution PDF
+                        <span class="color" id="try" style="color: rgb(42, 185, 147);">Try it first before you buy
+                            <div class="color_estrellas" style="background-color: rgb(42, 185, 147);">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-197 320.9 200 200" style="enable-background:new -197 320.9 200 200;width: 100%;position: absolute;" xml:space="preserve">
+                                    <path class="st0" d="M-75.7,416.3H-49l-48,45.9l-48-45.9h26.6v-50.5h42.6v50.5H-75.7z M-70.4,466.8h-53.3v9.2h53.3 C-70.4,476-70.4,466.8-70.4,466.8z" style="fill: white;"></path>
+                                </svg>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+                <div style="display: block">
+                    <div class="color_estrellas" style="background-color: rgb(42, 185, 147);"></div>
+                    <div style="line-height: 3.6rem;">No Watermark</div>
+                </div>
+                <div style="display: block;height: auto;margin-bottom: 2rem;">
+                    <div class="color_estrellas" style="background-color: rgb(42, 185, 147);"></div>
+                    <div>Optimized for ATS<span>ATS systems are used to track candidates during the hiring process.</span></div>
+                </div>
+            </div>
+            <div class="divider"><span>You'll be redirected back after payment is complete</span></div>
+            <div id="paypal-button-container"></div>
+        </div>
+    </div>
+    <datalist id="job-titles"><!-- <option value="Accountant"> <option value="Administrative Assistant"> <option value="Back End Developer"> <option value="Cashier"> <option value="Customer Support"> <option value="Data Engineer"> <option value="DevOps Engineer"> <option value="Digital Marketer"> <option value="Front End Developer"> <option value="Full Stack Developer"> <option value="General Manager"> <option value="Graphic Designer"> <option value="Marketing Manager"> <option value="Nursing Assistant"> <option value="Office Clerk"> <option value="Product Designer"> <option value="Retail Sales Associate"> <option value="Sales Manager"> <option value="School Teacher"> <option value="Server"> <option value="Software Engineer"> <option value="UX Designer"> <option value="UX Researcher"> --> </datalist>
+</div>
+<script type="text/javascript" src="./assets/scripts.js.download"></script>
+<script defer="" src="./assets/beacon.min.js.download" data-cf-beacon="{&quot;token&quot;: &quot;80f19ac2de4140b28d72a483a93a1bef&quot;}"></script>
+<div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;" data-dashlane-shadowhost="true" data-dashlane-observed="true">
+    <template shadowrootmode="open">
     <style>
         @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 
@@ -698,246 +1152,13 @@
             background-color: transparent;
         }
 
-        .main {
-            position: relative;
-            /* height: 100%; */
-            flex-grow: 1;
-        }
-
-        .main_content {
-            background-color: #fff;
-            min-height: 100px;
-            width: 304px;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            border-radius: 5px;
-            top: 0;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-color: transparent;
-            /* overflow: hidden; */
-            z-index: 2;
-            box-sizing: border-box;
-            padding: 0 0 8px 0;
-        }
-
-        .view_main {
-            overflow-y: auto;
-            overflow-x: hidden;
-        }
-
-        .view_main_old {
-            height: calc(100% - 55px);
-            display: flex;
-            flex-direction: column;
-        }
-
         .icon {
             cursor: pointer;
         }
 
-        .viewLoading {
-            background: white;
-            box-shadow: 0px 0px 4px #727272;
-            width: 30px;
-            height: 30px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 5px;
-        }
 
         .icon:hover {
             transform: scale(1.1);
-        }
-
-        .triangle {
-            position: absolute;
-            width: 0;
-            height: 0;
-            bottom: -21px;
-            border-bottom: 25px solid transparent;
-            border-left: 35px solid #fff;
-            filter: drop-shadow(-1px 7px 4px rgba(0, 0, 0, 0.2));
-        }
-
-        .header_container {
-            background-color: rgb(29, 161, 242);
-            letter-spacing: -0.2px;
-            font-size: 12px;
-            text-align: left;
-            max-height: 33px;
-            line-height: normal;
-            border-radius: 5px 5px 0 0;
-        }
-
-        .header_bar {
-            background-color: transparent;
-            height: 100%;
-            display: flex;
-            overflow: hidden;
-            text-align: center;
-            border-radius: 5px 5px 0 0;
-        }
-
-        .header_btn {
-            height: 100%;
-            width: 33.3%;
-            color: rgb(255, 255, 255);
-            background-color: transparent;
-            cursor: pointer;
-            padding: 8px;
-        }
-
-        .header_btn:hover {
-            background-color: #196594;
-        }
-
-        .header_btn_new {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: rgb(255, 255, 255);
-            background-color: transparent;
-            cursor: pointer;
-            padding: 8px;
-        }
-
-        .header_btn_new .clzzTooltip {
-            display: none;
-            position: absolute;
-            top: -30px;
-            white-space: nowrap;
-            background: #424141b5;
-            padding: 4px 12px;
-            border-radius: 5px;
-            font-weight: 600;
-        }
-
-        .header_btn_new:hover {
-            background-color: #196594;
-        }
-
-        .header_btn_new:hover .clzzTooltipShow {
-            display: block;
-        }
-
-        .header_last {
-            /* padding-right: 32px; */
-        }
-
-        .header_close_icon_container {
-            position: absolute;
-            top: 11.4px;
-            right: -20px;
-            cursor: pointer;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background-color: #ffffff;
-            box-shadow: 1px 1px 10px black;
-        }
-
-        .header_close_icon {
-            /* all: unset; */
-            padding: 3px;
-        }
-
-        .header_triangle_top {
-            position: absolute;
-            width: 0;
-            height: 0;
-            bottom: -21px;
-            border-bottom: 25px solid transparent;
-            border-left: 35px solid #fff;
-            filter: drop-shadow(-1px 7px 4px rgba(0, 0, 0, 0.2));
-        }
-
-        .word_container {
-            padding: 8px 7px 8px 16px;
-            line-height: 1.17;
-        }
-
-        .word_content {
-            min-height: 28px;
-            max-height: 116px;
-            padding-bottom: 0px;
-            display: flex;
-            flex-wrap: wrap;
-            overflow-wrap: break-word;
-            align-items: center;
-            /* overflow-x: hidden;
-            overflow-y: auto; */
-        }
-
-        .word_content::-webkit-scrollbar {
-            width: 4px;
-            border-radius: 100px;
-        }
-
-        .word_content::-webkit-scrollbar-track {
-            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-            border-radius: 100px;
-        }
-
-        .word_content::-webkit-scrollbar-thumb {
-            background-color: #9f9f9f;
-            outline: 1px solid #e5e5e5;
-            border-radius: 100px;
-        }
-
-        .word_speaker_container {
-            cursor: pointer;
-            align-self: flex-start;
-            /* margin-top: 8px; */
-            opacity: 0.7;
-            height: 28px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .word_speaker_container:hover {
-            opacity: 1;
-        }
-
-        .word_word {
-            min-width: 10px;
-            max-width: 240px;
-            font-size: 24px;
-            font-weight: bold;
-            letter-spacing: 1.2px;
-            text-align: left;
-            color: #000000;
-            /* margin-left: 5px; */
-        }
-
-        .word_incorect {
-            font-size: 12px;
-            font-weight: 100;
-            letter-spacing: 1.2px;
-            text-align: left;
-            color: #000000;
-            margin-left: 5px;
-        }
-
-        .word_pronun {
-            font-style: italic;
-            margin-left: 8px;
-        }
-
-        .word_loading_container {
-            margin-left: 20px;
-            margin-top: 7px;
-            overflow: hidden;
-        }
-
-        .word_loading {
-            height: 20px;
-            width: 20px;
-            -webkit-animation: spin 1.5s 0.3s linear infinite;
-            -moz-animation: spin 1.5s 0.3s linear infinite;
-            animation: spin 1.5s linear 0.3s infinite;
         }
 
         @-moz-keyframes spin {
@@ -959,59 +1180,12 @@
             }
         }
 
-        .word_pop_symbol_container {
-            position: relative;
-        }
-
-        .word_pop_symbol {
-            width: 33px;
-            height: 15px;
-            background-color: #ffcc00;
-            margin-left: 8px;
-            transform: skewX(-25deg);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border-radius: 2px;
-        }
 
         .word_pop_symbol img {
             z-index: 1;
             transform: skewX(25deg);
         }
 
-        .word_tooltip_container {
-            position: fixed;
-            margin-top: 14px;
-            margin-left: 30px;
-            opacity: 0;
-            display: none;
-            transition: opacity 0.3s ease;
-            z-index: 1000000000000;
-            background-color: #fff;
-            height: 40px;
-            width: 120px;
-            border-radius: 5px;
-            box-shadow: -1px -4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-            font-size: 11px;
-            font-weight: normal;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.25;
-            letter-spacing: normal;
-            text-align: left;
-            padding: 5px;
-        }
-
-        .word_tooltip_triangle {
-            position: absolute;
-            width: 0;
-            height: 0;
-            top: -14px;
-            border-top: 15px solid transparent;
-            border-left: 15px solid #fff;
-            filter: drop-shadow(-1px -1px 1px rgba(0, 0, 0, 0.2));
-        }
 
         .word_pop_symbol_container:hover .word_tooltip_container {
             opacity: 1;
@@ -1020,26 +1194,6 @@
 
         .word_tooltip_container p {
             margin-top: 5px;
-        }
-
-        .content_container {
-            padding: 0 7px 0 13px;
-            /* margin-bottom: 17px; */
-            overflow-y: auto;
-            overflow-x: hidden;
-            /* max-height: 247px; */
-            /* height: 200px; */
-            flex-grow: 1;
-        }
-
-        .content_container_new_scroll {
-            padding: 0 7px 0 13px;
-            /* margin-bottom: 17px; */
-            /* overflow-y: auto;
-            overflow-x: hidden; */
-            /* max-height: 247px; */
-            /* height: 200px; */
-            flex-grow: 1;
         }
 
         .content_container .content_inner {
@@ -1051,12 +1205,6 @@
             max-height: 247px;
             height: 200px;
             flex-grow: 1; */
-        }
-
-        .content_inner_list {
-            width: 284px;
-            box-sizing: border-box;
-            padding-left: 11px;
         }
 
         .content_container::-webkit-scrollbar,
@@ -1082,264 +1230,15 @@
             text-align: center;
         }
 
-        .content_pos {
-            color: #faa918;
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 1.17;
-            letter-spacing: -0.3px;
-            text-align: left;
-        }
-
-        .content_more_btn {
-            width: 94%;
-            height: 24px;
-            border-radius: 16px;
-            margin-top: 20px;
-            background-color: #d8d8d8;
-            cursor: pointer;
-            text-align: center;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .content_more_btn:hover {
-            background-color: rgb(148, 148, 148);
-        }
-
-        .tran_container {
-            width: 256px;
-            min-height: 40px;
-            border-radius: 5px;
-            background-color: #d8d8d8;
-            margin-top: 4px;
-            margin-bottom: 4px;
-        }
-
-        .tran_content {
-            padding: 11px 8px 12px 8px;
-            display: flex;
-            flex-direction: column;
-        }
-
         .tran_content .tran_content_top {
             display: flex;
             margin-bottom: 8px;
             justify-content: space-between;
         }
 
-        .tran_tran_content {
-            display: flex;
-        }
-
-        .tran_tran {
-            width: 77%;
-            font-weight: 600;
-            line-height: 1.14;
-            letter-spacing: -0.2px;
-            flex-grow: 1;
-            flex-wrap: wrap;
-            overflow-wrap: break-word;
-            text-align: left;
-            color: #333333;
-        }
-
-        .tran_btn_add {
-            all: initial;
-            margin-left: 4px;
-            cursor: pointer;
-            width: 48px;
-            height: 20px;
-            float: left;
-            background-color: #1da1f2;
-            border-radius: 2px;
-            display: flex !important;
-            color: #fff;
-            justify-content: space-around;
-            font-family: Open Sans, sans-serif;
-            align-items: center;
-            font-size: 12px;
-            font-weight: 300;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.33;
-            letter-spacing: 0.8px;
-            /* overflow: hidden; */
-            text-overflow: ellipsis;
-        }
-
-        .tran_btn_edit {
-            all: initial;
-            margin-right: 10px;
-            cursor: pointer;
-            opacity: 0.7;
-        }
-
-        .tran_btn_add:hover,
-        .btn_edit:hover {
-            transform: scale(1.1)
-        }
-
-        .tran_extra_data {
-            width: 100%;
-            font-weight: 300;
-            font-size: 14px;
-            line-height: 1.33;
-            letter-spacing: -0.2px;
-            flex-wrap: wrap;
-            overflow-wrap: break-word;
-            text-align: left;
-            color: #666666;
-            padding-top: 2px;
-            white-space: pre-wrap;
-        }
-
-        .tran_footer {
-            display: flex;
-            width: 100%;
-            justify-content: flex-end;
-        }
-
-        .tran_vote_container {
-            min-width: 88px;
-            height: 16px;
-            border-radius: 8px;
-            background-color: #d8d8d8;
-            border: solid 1px #979797;
-            /* margin-left: 59%; */
-            margin-bottom: -27px;
-            font-size: 8px;
-            font-weight: normal;
-            font-style: italic;
-            font-stretch: normal;
-            line-height: normal;
-            letter-spacing: normal;
-            text-align: justify;
-            color: #000000;
-            /* padding: 2px 12px 2px 12px; */
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-
-        .OOPS_container {
-            height: 129px;
-            border-radius: 5px;
-            background-color: #d8d8d8;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-        }
-
-        .OOPS_img {
-            align-self: center;
-        }
-
-        .OOPS_oops_text {
-            font-size: 14px;
-            font-weight: bold;
-        }
-
-        .OOPS_alert_text {
-            font-size: 12px;
-            font-family: 300;
-            line-height: 1.33;
-            letter-spacing: -0.2px;
-        }
-
-        .btnSayItCon {
-            padding: 8px;
-        }
-
-        .btnToAdvTranslation {
-            position: absolute;
-            right: -32px;
-            width: 32px;
-            height: 32px;
-            top: 33px;
-            background: #ffffff;
-            border-radius: 0 5px 5px 0px;
-            cursor: pointer;
-            box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .btnSpeak {
-            position: absolute;
-            right: -32px;
-            width: 32px;
-            height: 32px;
-            top: 66px;
-            background: #ffffff;
-            border-radius: 0 5px 5px 0px;
-            cursor: pointer;
-            box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.5);
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .btnGoProIconRight {
-            top: 99px;
-        }
-
-        .btnSayIt {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 18px;
-            border-radius: 5px;
-            padding: 0 4px;
-            background-color: #ff7700;
-            cursor: pointer;
-        }
-
-        .btnSayItIcon {
-            display: flex;
-            padding-right: 4px;
-        }
-
         .btnSayItIcon svg {
             width: 12px;
             height: 12px;
-        }
-
-        .btnSayItText {
-            font-size: 12px;
-            font-weight: 600;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.3333333333333333;
-            letter-spacing: normal;
-            color: #ffffff;
-        }
-
-        .word_pron {
-            margin-top: 8px;
-            display: flex;
-            align-items: center;
-        }
-
-        .custom_container {
-            position: relative;
-            z-index: 99999999999999999;
-        }
-
-        .custom_add_translation {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-        }
-
-        .custom_input {
-            flex-grow: 1;
-            padding: 0px 21px 0px 0px;
         }
 
         .custom_input input {
@@ -1360,27 +1259,10 @@
             padding: 0 8px;
         }
 
-        .custom_content {
-            flex-grow: 1;
-        }
-
-        .icon_plus {
-            cursor: pointer;
-            display: flex;
-        }
 
         .icon_plus svg {
             width: 16px;
             height: 16px;
-        }
-
-        .hidden {
-            display: none;
-        }
-
-        .tooltip_custom_add {
-            position: absolute;
-            /* display: none; */
         }
 
         /* tool tip */
@@ -1494,120 +1376,6 @@
             opacity: 1
         }
 
-        .selectWbCon {
-            /* filter: drop-shadow(-1px 7px 4px rgba(0, 0, 0, 0.2));
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-            display: flex;
-            justify-content: flex-end;
-            position: relative;
-            align-items: center;
-            padding: 8px 8px 0 8px;
-            font-size: 12px;
-            color: #666666;
-        }
-
-        .selectWbConLeft {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 16px;
-            display: flex;
-            cursor: pointer;
-            color: #666666;
-            align-items: center;
-            padding-right: 4px;
-        }
-
-        .selectWbConRight {
-            font-style: normal;
-            font-weight: 600;
-            font-size: 12px;
-            line-height: 16px;
-            display: flex;
-            cursor: pointer;
-            color: #666666;
-            align-items: center;
-            padding-right: 3px;
-        }
-
-        .selectWbIcon {
-            display: flex;
-            cursor: pointer;
-        }
-
-        .selectWbConSelect {
-            position: absolute;
-            bottom: 31px;
-            visibility: hidden;
-            background: white;
-            /* height: 300px; */
-            z-index: 999;
-            min-width: 200px;
-            max-width: 300px;
-            max-height: 300px;
-            overflow: auto;
-            filter: drop-shadow(-1px 7px 4px rgba(0, 0, 0, 0.2));
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            border-radius: 5px;
-        }
-
-        .selectWbConSelect.isShow {
-            visibility: visible;
-        }
-
-        .selectWbConSelect.hidden {
-            visibility: hidden;
-        }
-
-        .itemOptionSelectWb {
-            cursor: pointer;
-            padding: 6px 8px;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 16px;
-            display: flex;
-            color: #666666;
-            align-items: center;
-        }
-
-        .itemOptionSelectWb.active {
-            color: #1da1f2
-        }
-
-        .itemOptionSelectWb:hover {
-            background: #1da1f2;
-            color: white;
-        }
-
-        .selectWb {
-            border: none;
-            font-size: 14px;
-            font-weight: 400;
-            color: #666666;
-            background: transparent;
-        }
-
-        /* start icon level */
-
-        .viewIconFilter {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .iconFilter {
-            width: 24px;
-            height: 23px;
-            background: #1DA1F2;
-            -webkit-mask-size: cover;
-            mask-size: cover;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-right: 8px;
-        }
-
         .iconFilter span {
             font-size: 12px;
             line-height: 1.2;
@@ -1615,20 +1383,6 @@
             font-weight: bold;
             color: #FFFFFF;
         }
-
-        .nameFilter {
-            font-style: normal;
-            font-weight: 600;
-            font-size: 14px;
-            line-height: 16px;
-            display: flex;
-            align-items: center;
-            color: #333333;
-        }
-
-        /* end icon level */
-
-        /* start popup go to pro */
 
         .iconItemGoPro svg {
             width: 38px;
@@ -1646,54 +1400,6 @@
 
         .iconItemGoProActive path {
             fill: #1DA1F2;
-        }
-
-        /* end popup go to pro */
-
-        .switch {
-            position: relative;
-            display: inline-block;
-            cursor: pointer;
-            width: 30px;
-            height: 17px;
-        }
-
-        .slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #ccc;
-            -webkit-transition: background-color 0.4s, transform 0.4s;
-            -moz-transition: background-color 0.4s, transform 0.4s;
-            -ms-transition: background-color 0.4s, transform 0.4s;
-            -o-transition: background-color 0.4s, transform 0.4s;
-            transition: background-color 0.4s, transform 0.4s;
-        }
-
-        .slider:before {
-            position: absolute;
-            content: "";
-            height: 13px;
-            width: 13px;
-            left: calc(13px / 6.5);
-            bottom: calc(13px / 6.5);
-            background-color: #ffffff;
-            -webkit-transition: background-color 0.4s, transform 0.4s;
-            -moz-transition: background-color 0.4s, transform 0.4s;
-            -ms-transition: background-color 0.4s, transform 0.4s;
-            -o-transition: background-color 0.4s, transform 0.4s;
-            transition: background-color 0.4s, transform 0.4s;
-        }
-
-        .round {
-            border-radius: 30px;
-        }
-
-        .round:before {
-            border-radius: 50%;
         }
 
         .active .slider {
@@ -1727,14 +1433,6 @@
             /* outline: 1px solid #e5e5e5; */
             border-radius: 100px;
             text-align: center;
-        }
-
-        .scale-animation {
-            height: 20px;
-            width: 20px;
-            -webkit-animation: scale-infi 1.5s 0.3s linear infinite;
-            -moz-animation: scale-infi 1.5s 0.3s linear infinite;
-            animation: scale-infi 1.5s linear 0.3s infinite;
         }
 
         @-moz-keyframes scale-infi {
@@ -1773,59 +1471,9 @@
             }
         }
 
-        .notify_onboarding_container {
-            position: absolute;
-            width: 272px;
-            min-height: 65px;
-            flex-direction: column;
-            left: 16px;
-            padding-bottom: 8px;
-            display: flex;
-            align-items: center;
-            bottom: 45px;
-            text-align: center;
-            background: #FFFFFF;
-            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
-            border-radius: 5px;
-            border: 1px solid #1DA1F2;
-        }
-
-        .notify_onboarding_close {
-            display: flex;
-            cursor: pointer;
-            align-self: self-end;
-            justify-content: flex-end;
-        }
 
         .notify_onboarding_close > svg {
             padding: 10px 10px 0 0;
-        }
-
-        .notify_onboarding_title {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            padding: 0 16px;
-            line-height: 16px;
-            color: #333333;
-        }
-
-        .notify_onboarding_btn {
-            display: flex;
-            justify-content: center;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            display: flex;
-            align-items: center;
-            padding: 6px 24px;
-            line-height: 14px;
-            cursor: pointer;
-            background: #1DA1F2;
-            color: white;
-            border-radius: 72.6px;
-            margin-top: 10px;
-            margin-bottom: 10px;
         }
 
         .notify_onboarding_btn > span {
@@ -1897,49 +1545,8 @@
             transform: rotate(135deg);
         }
 
-
-        .searchMeaningGg_container {
-            /* background: #D8D8D8; */
-            border-radius: 4px;
-            padding: 8px 0px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        .searchMeaningGg_text {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 16px;
-            cursor: pointer;
-            /* display: flex;
-            align-items: center; */
-            /* text-align: center; */
-        }
-
         .searchMeaningGg_text span {
             color: #1DA1F2;
-        }
-
-        .searchMeaningGg_btn {
-            /* background: #1DA1F2; */
-            border-radius: 100px;
-            padding: 8px 36px;
-            margin-top: 16px;
-            font-style: normal;
-            font-size: 14px;
-            line-height: 16px;
-            text-align: center;
-            color: #1DA1F2;
-            cursor: pointer;
-        }
-
-
-        .view_similar {
-            display: flex;
-            flex-wrap: wrap;
         }
 
         .view_similar .imilar_text {
@@ -1982,118 +1589,8 @@
             border: 1px solid #f8f9fa;
         }
 
-        .google_Dictionary_title {
-            background: #E6E7EB;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 12px;
-            line-height: 16px;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            color: #3B3C40;
-            padding: 4px 9px;
-        }
-
-        .google_Dictionary_desc {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 10px;
-            line-height: 16px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: #626262;
-            padding-top: 8px;
-            padding-bottom: 4px;
-        }
-
-        .google_Dictionary_pharse {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 16px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: #8C8C8C;
-            padding-bottom: 4px;
-            padding-left: 26px;
-        }
-
-        .google_Dictionary_content_pos {
-            text-align: left;
-            font-style: italic;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 20px;
-            color: #8C8C8C;
-        }
-
-        .google_Dictionary_pharse_link {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 16px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: #0F59C5;
-            padding-left: 4px;
-        }
-
-        .dataGetMeaningEmpty {
-            background: #D8D8D8;
-            border-radius: 4px;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 12px;
-            line-height: 16px;
-            color: #3B3C40;
-            width: '100%';
-            min-width: 124px;
-            min-height: 124px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-
         .dataGetMeaningEmpty span {
             padding: 16px 11px 0px;
-        }
-
-        .item_lookup_container {
-            min-height: 34px;
-            display: flex;
-            flex-direction: row;
-            padding: 8px 12px;
-            align-items: center;
-            cursor: pointer;
-        }
-
-        .item_lookup_logo {
-            height: 34px;
-            width: 34px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #11A37F;
-        }
-
-        .item_lookup_logo_small {
-            height: 16px;
-            width: 16px;
-            border-radius: 3px;
-            font-weight: 600;
-        }
-
-        .item_lookup_logo_bg_none {
-            background-color: transparent;
         }
 
         .item_lookup_logo img {
@@ -2108,35 +1605,6 @@
 
         .item_lookup_logo svg path {
             fill: white
-        }
-
-
-        .item_lookup_text {
-            font-style: normal;
-            font-weight: 400;
-            font-size: 14px;
-            line-height: 20px;
-            display: flex;
-            align-items: center;
-            color: #666666;
-            flex: 1;
-            padding-left: 12px;
-        }
-
-        .item_lookup_text_small {
-            font-size: 12px;
-            line-height: 16px;
-            font-weight: 600;
-        }
-
-        .item_lookup_more {
-            cursor: pointer;
-            /* height: 34px;
-            width: 34px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #11A37F; */
         }
 
         .viewIcon {
@@ -2154,22 +1622,6 @@
             border-radius: 1px 0px 0px 1px;
         }
 
-        .itemDropDown {
-            color: #333;
-            font-size: 14px;
-            line-height: 16px;
-            padding: 0 8px;
-            position: relative;
-        }
-
-        .btnAddImg {
-            position: relative;
-            height: 100%;
-            justify-content: center;
-            align-items: center;
-            display: flex;
-        }
-
         .btnAddImg > img,
         .itemArrowDropDownImg {
             position: absolute;
@@ -2182,10 +1634,6 @@
             background: transparent;
         }
 
-        .itemDropDownWithLine {
-            border-right: 1px solid #B2B2B2;
-        }
-
         .itemArrowDropDown {
             padding: 0 6px;
             cursor: pointer;
@@ -2196,42 +1644,8 @@
             align-items: center;
         }
 
-        .viewContentItemDrop {
-            width: 162px;
-            top: 105%;
-            position: absolute;
-            right: 0;
-            flex-shrink: 0;
-            display: flex;
-            flex-direction: column;
-            background: #FFF;
-            padding-bottom: 6px;
-            border-radius: 4px;
-            box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.20);
-            /* box-shadow: 0px 3px 12px 0px rgba(0, 0, 0, 0.20); */
-        }
-
         .itemArrowDropDown:hover div[datatype="viewItemHover"] {
             /* display: flex; */
-        }
-
-        .viewItemHoverTitle {
-            color: #333;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 600;
-            padding: 12px 12px 6px 12px;
-            line-height: 16px;
-        }
-
-        .viewItemDrop {
-            height: 32px;
-            display: flex;
-            padding: 0 12px;
-            padding-right: 0;
-            align-items: center;
-            cursor: pointer;
-            background: #fff
         }
 
         .viewItemDrop > span {
@@ -2239,23 +1653,6 @@
             font-size: 14px;
             padding: 0 12px;
             line-height: 16px;
-        }
-
-        .viewItemDrop:hover {
-            background: #F0F0F0
-        }
-
-        .viewIconPin {
-            display: flex;
-            padding: 10px;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-        }
-
-        .viewIconPinDisable {
-            opacity: 0.5;
-            cursor: not-allowed !important;
         }
 
         .viewIconPinDisable img {
@@ -2271,114 +1668,6 @@
 
         .viewIconPin:hover svg path {
             fill: rgb(29, 161, 242)
-        }
-
-        #popup_eJOY {
-            all: initial;
-            position: fixed;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            margin: auto;
-            background-color: rgba(0, 0, 0, 0.8);
-            z-index: 99999999999999999999999999999999;
-            outline: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .view_desc {
-            display: flex;
-            min-width: 279px;
-            align-items: center;
-            justify-content: flex-start;
-        }
-
-        .popup_main_go_pro {
-            /* position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0; */
-            position: relative;
-            margin: auto;
-            /* height: 201px; */
-            width: 623px;
-            border-radius: 10px;
-            background-color: #fff;
-            display: flex;
-            max-width: 100%;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            font-size: 16px;
-            font-weight: 400;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.5;
-            letter-spacing: -0.4px;
-            text-align: center;
-            color: #000000;
-            animation: alertPop 0.2s ease-out;
-            background: white;
-            font-family: "Open Sans", Arial, sans-serif;
-        }
-
-        .popup_main {
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            margin: auto;
-            height: 201px;
-            width: 415px;
-            max-width: 100%;
-            border-radius: 5px;
-            background-color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            font-size: 16px;
-            font-weight: 400;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.5;
-            letter-spacing: -0.4px;
-            text-align: center;
-            color: #000000;
-            animation: alertPop 0.2s ease-out
-        }
-
-        .popup_main_login {
-            position: absolute;
-            font-family: "Open Sans", Arial, sans-serif !important;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            margin: auto;
-            height: 342px;
-            width: 392px;
-            max-width: 100%;
-            border-radius: 5px;
-            background-color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            font-size: 16px;
-            font-weight: 400;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.5;
-            letter-spacing: -0.4px;
-            text-align: center;
-            color: #000000;
-            animation: alertPop 0.2s ease-out
         }
 
         .popup_main_login span, .popup_main_login button {
@@ -2402,31 +1691,6 @@
 
         #popup_eJOY p {
             width: 342px;
-        }
-
-        .popup_line {
-            width: 414px;
-            height: 1px;
-            background-color: #d8d8d8;
-            margin-top: 6px;
-        }
-
-        .popup_close_btn {
-            position: absolute;
-            top: 18px;
-            right: 29px;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            background-color: #b4b4b4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-        }
-
-        .btn_login {
-            background-color: rgb(29, 161, 242);
         }
 
         #popup_eJOY .titleTxt {
@@ -2544,81 +1808,6 @@
             }
         }
 
-        .popup_main_onboarding {
-            position: absolute;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            top: 0;
-            margin: auto;
-            height: 520px;
-            width: 773px;
-            max-width: 100%;
-            border-radius: 10px;
-            background-color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            font-size: 16px;
-            font-weight: 400;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: 1.5;
-            letter-spacing: -0.4px;
-            text-align: center;
-            color: #000000;
-            animation: alertPop 0.2s ease-out
-        }
-
-        .popup_main_onboarding_no_ani {
-            animation: none;
-        }
-
-        .onboarding_popup_close {
-            position: absolute;
-            top: -25px;
-            right: 10px;
-            width: 12px;
-            height: 12px;
-            border-radius: 50%;
-            /* background-color: #b4b4b4; */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-        }
-
-        .onboarding_btn {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .onboarding_content {
-            width: 100%;
-            height: 100%;
-            justify-content: space-around;
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            padding: 10px 0 50px 0;
-        }
-
-        .onboarding_text {
-            font-style: normal;
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 24px;
-            font-family: sans-serif;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: #333333;
-            padding: 0 40px;
-        }
-
         .onboarding_btn > button {
             margin: 16px 0 !important;
             line-height: 20px !important;
@@ -2626,69 +1815,6 @@
             border-radius: 72.6px !important;
             min-width: 264px !important;
             font-weight: 400 !important;
-        }
-
-        .onboarding_btn_no_remind {
-            height: 40px !important;
-            min-width: 264px !important;
-            border: 1px solid #B3B3B3 !important;
-            border-radius: 72.6px !important;
-            font-style: normal !important;
-            margin: 16px 0 !important;
-            font-weight: 600 !important;
-            font-size: 16px !important;
-            line-height: 20px !important;
-            padding: 10px 40px !important;
-            display: flex !important;
-            align-items: center !important;
-            text-align: center !important;
-            color: #B3B3B3 !important;
-            background: transparent !important;
-        }
-
-        .onboarding_content_remind {
-            width: 100%;
-            height: 100%;
-            font-family: sans-serif;
-            /* justify-content: space-around; */
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            /* padding: 10px 0 50px 0; */
-        }
-
-        .onboarding_remind_main {
-            display: flex;
-            justify-content: space-around;
-            width: 100%;
-            margin-top: 40px;
-        }
-
-        .onboarding_btn_back {
-            display: flex;
-            align-items: center;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            align-self: flex-start;
-            line-height: 20px;
-            padding-top: 16px;
-            padding-left: 16px;
-            /* identical to box height, or 125% */
-            display: flex;
-            align-items: center;
-            cursor: pointer;
-            text-align: center;
-            /* 6.“ON”color/Lower emphasis */
-            color: #B3B3B3;
-        }
-
-        .onboarding_remind_main_right_view_time {
-            text-align: left;
-            display: flex;
-            padding: 8px 0;
-            font-family: "Open Sans", Arial, sans-serif;
-            font-family: sans-serif;
         }
 
         .onboarding_remind_main_right_view_time > span {
@@ -2701,25 +1827,6 @@
             display: flex;
             align-items: center;
             color: #8C8C8C;
-        }
-
-        .onboarding_remind_main_right_view_time_main {
-            display: flex;
-        }
-
-        .onboarding_remind_main_right_view_time_main_item {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            cursor: pointer;
-        }
-
-        .onboarding_remind_main_right_view_time_input_time {
-            padding: 2px 8px !important;
-            border: 1px solid #B3B3B3 !important;
-            border-radius: 3px !important;
-            box-sizing: border-box !important;
         }
 
         .onboarding_remind_main_right_view_time_main_item span:first-child {
@@ -2751,40 +1858,8 @@
             margin-top: 0 !important;
         }
 
-        .onboarding_success_icon {
-            border-radius: 90.3704px;
-            border: 15px solid #7AC70C;
-            width: 92px;
-            height: 92px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .onboarding_success_text {
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            font-family: "Open Sans", Arial, sans-serif;
-            line-height: 20px;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            color: #333333;
-        }
-
-        .popup_main_success_onboarding {
-            width: 398px;
-            height: 245px;
-        }
-
-        .onboarding_success_content {
-            padding: 16px;
-        }
-
-
     </style>
-        <div id="eJOY__extension_shadow">
+    <div id="eJOY__extension_shadow">
             <div class="wrapperEjoy">
                 <div class="container" style="display: none;">
                     <div class="viewIcon">
@@ -2800,7 +1875,7 @@
                 <span style="position: absolute; top: 1px; left: 1px; opacity: 0; pointer-events: none; background-color: rgb(229, 56, 56); border: 1px solid rgb(229, 56, 56); border-radius: 16px; display: flex; justify-content: center; color: rgb(255, 255, 255); z-index: 2147483647; font-size: 8px; min-width: 12px; min-height: 12px; line-height: 11px; align-items: center;">1</span>
                 <span style="position: absolute; top: 1px; opacity: 0; pointer-events: none; background-color: rgba(2, 2, 2, 0.9); border-radius: 4px; padding: 4px 10px; display: flex; min-width: 100px; justify-content: center; color: rgb(255, 255, 255); z-index: 2147483647; font-size: 12px; min-height: 12px; line-height: 16px; align-items: center;"></span>
             </div>
-        </div>
+    </div>
 </template>
 </div>
 <iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;" src="./assets/saved_resource.html"></iframe>
